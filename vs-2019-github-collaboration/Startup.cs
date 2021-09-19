@@ -34,6 +34,7 @@ namespace vs_2019_github_collaboration
                 {
                     await context.Response.WriteAsync("<h1>Hello World!</h1>");
                     await context.Response.WriteAsync("<h3>Welcome to this web site</h3>");
+                    await context.Response.WriteAsync("<h3>Have a nice visit</h3>");
                 });
             });
         }
